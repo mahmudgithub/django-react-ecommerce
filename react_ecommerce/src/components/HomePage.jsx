@@ -67,27 +67,27 @@ const HomePage = () => {
                         <div className="">
                             {
                                 products?.previous !== null ?
-                                    <button onClick={prevoous} class="btn btn-lg btn-success"><i class="fas fa-backward"></i> Previous</button>
+                                    <button onClick={prevoous} class="btn btn-sm btn-success " active><i class="fas fa-backward"></i> Previous</button>
                                     :
-                                    <button class="btn btn-lg btn-success" disabled> <i class="fas fa-backward"></i> Previous</button>
+                                    <button class="btn btn-sm btn-danger" disabled> <i class="fas fa-backward"></i> Previous</button>
                             }
                         </div>
                         <div className="">
                             {
                                 products?.next !== null ?
-                                    <button onClick={nextpage} class="btn btn-lg btn-danger">Next <i class="fas fa-forward"></i></button>
+                                    <button onClick={nextpage} class="btn btn-sm btn-success" active>Next <i class="fas fa-forward"></i></button>
                                     :
-                                    <button class="btn btn-lg btn-danger" disabled>Next <i class="fas fa-forward"></i></button>
+                                    <button class="btn btn-sm btn-danger" disabled>Next <i class="fas fa-forward"></i></button>
                             }
                         </div>
                     </div>
                 </div>
-                <div className="col-md-4 mt-2">
-                    <h1>Categoris</h1>
+                <div className="col-md-3 mt-1">
+                    <h1>Categories</h1>
                     {
                         categoris?.map((cata, i) => (
-                            <div className="p-2 m-2" key={i}>
-                                <Link to={`/categori/${cata.id}`} className="btn btn-success">{cata.title}</Link>
+                            <div className="p-1 m-1" key={i}>
+                                <Link to={`/categori/${cata.id}`} className="btn btn-dark">{cata.title}</Link>
                             </div>
                         ))
                     }

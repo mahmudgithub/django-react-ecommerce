@@ -21,8 +21,8 @@ const CategoriProduct = () => {
     }, [id])
     return (
         <div className="container">
-            <h1>Categori: {cataproduct?.title}</h1>
-            <h2>Categori Products</h2>
+            <h1>Category: {cataproduct?.title}</h1>
+            
             <div className="row">
                 {
                     cataproduct !== null &&
