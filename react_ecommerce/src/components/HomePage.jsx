@@ -83,7 +83,7 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="col-md-4 mt-2">
-                    <h1>Categories</h1>
+                    <h1>Categoris</h1>
                     {
                         categoris?.map((cata, i) => (
                             <div className="p-2 m-2" key={i}>
