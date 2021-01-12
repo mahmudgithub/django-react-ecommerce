@@ -21,7 +21,8 @@ const NavBar = () => {
         window.location.href = "/"
     }
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar_class">
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary navbar_class" >
+        
             <div className="container">
                 <Link class="navbar-brand" to='/'>Home</Link>
                 <Link class="navbar-brand" to='/'>mahmud</Link>
