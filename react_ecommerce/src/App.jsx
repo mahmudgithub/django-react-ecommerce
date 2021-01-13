@@ -88,6 +88,7 @@ const App = () => {
     }
   }, [reloadpage])
   return (
+    
     <BrowserRouter>
       <NavBar />
       <Switch>
@@ -114,8 +115,10 @@ const App = () => {
         <Route exact component={HomePage} />
       </Switch>
     </BrowserRouter>
+    
 
   )
+  
 }
 
 
