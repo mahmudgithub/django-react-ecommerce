@@ -14,6 +14,7 @@ import Profile from './components/Profile'
 import Register from './components/Register'
 import { domain } from './env'
 import { useGlobalState } from './state/provider'
+import Extra from './components/Extra'
 
 const App = () => {
   const [{ profile, reloadpage }, dispatch] = useGlobalState()
@@ -90,6 +91,8 @@ const App = () => {
   return (
     
     <BrowserRouter>
+    
+    <Extra/>
       <NavBar />
       <Switch>
         <Route exact path='/' component={HomePage} />
