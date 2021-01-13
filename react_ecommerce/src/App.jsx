@@ -14,7 +14,12 @@ import Profile from './components/Profile'
 import Register from './components/Register'
 import { domain } from './env'
 import { useGlobalState } from './state/provider'
+
+// addtional
 import Extra from './components/Extra'
+import Extra2 from './components/Extra2'
+
+
 
 const App = () => {
   const [{ profile, reloadpage }, dispatch] = useGlobalState()
@@ -37,7 +42,7 @@ const App = () => {
           }
           )
         })
-          .catch(e => {
+          .catch(e=> {
             // console.log(e)
             dispatch({
               type: "ADD_PROFILE",
@@ -92,7 +97,12 @@ const App = () => {
     
     <BrowserRouter>
     
+    {/* additonal */}
     <Extra/>
+    <Extra2/>
+
+
+    
       <NavBar />
       <Switch>
         <Route exact path='/' component={HomePage} />
