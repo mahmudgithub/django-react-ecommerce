@@ -18,6 +18,7 @@ import { useGlobalState } from './state/provider'
 // addtional
 import Extra from './components/Extra'
 import Extra2 from './components/Extra2'
+import Extra3 from './components/Extra3'
 
 
 
@@ -100,9 +101,10 @@ const App = () => {
     {/* additonal */}
     <Extra/>
     <Extra2/>
+    <Extra3/>
 
 
-    
+
       <NavBar />
       <Switch>
         <Route exact path='/' component={HomePage} />
