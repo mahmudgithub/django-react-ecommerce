@@ -6,6 +6,7 @@ from .models import *
 
 class ProfileAdmin(admin.ModelAdmin):
     list_display = ("id","prouser")
+    search_fields=("prouser",)
 admin.site.register(Profile,ProfileAdmin)
 
 class CategoryAdmin(admin.ModelAdmin):
