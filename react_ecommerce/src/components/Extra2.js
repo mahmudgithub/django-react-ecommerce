@@ -1,11 +1,15 @@
 import React from 'react'
 
 function Extra2() {
-    
-
+    var arr={
+        name:'mahmud',
+        roll:12345,
+        city:'raj'
+    }
+    console.log(arr);
     return (
         <div>
-            <h2>i am extra2</h2>
+           {arr.name} /{arr.city}
         </div>
     )
 }
