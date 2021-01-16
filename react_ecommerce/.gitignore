@@ -83,8 +83,8 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
-local_settings.py
+# *.log
+# local_settings.py
 db.sqlite3
 
 # Flask stuff:
@@ -134,9 +134,9 @@ venv.bak/
 /site
 
 # mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
+# .mypy_cache/
+# .dmypy.json
+# dmypy.json
 
 # Pyre type checker
 .pyre/
