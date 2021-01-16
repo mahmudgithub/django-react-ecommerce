@@ -6,10 +6,13 @@ function Extra2() {
         roll:12345,
         city:'raj'
     }
-    console.log(arr);
+    // console.log(arr);
+
+
     return (
         <div>
            {arr.name} /{arr.city}
+           
         </div>
     )
 }
