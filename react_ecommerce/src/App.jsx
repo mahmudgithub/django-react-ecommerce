@@ -17,8 +17,8 @@ import { useGlobalState } from './state/provider'
 
 // addtional
 import Extra from './components/Extra'
-import Extra2 from './components/Extra2'
-import Extra3 from './components/Extra3'
+//import Extra2 from './components/Extra2'
+//import Extra3 from './components/Extra3'
 
 
 
