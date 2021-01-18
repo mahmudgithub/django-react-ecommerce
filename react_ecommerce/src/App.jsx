@@ -100,8 +100,7 @@ const App = () => {
     
     {/* additonal */}
     <Extra/>
-    //<Extra2/>
-    //<Extra3/>
+
 
 
 
