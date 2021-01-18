@@ -25,7 +25,8 @@ const NavBar = () => {
         
             <div className="container">
                 <Link class="navbar-brand" to='/'>Home</Link>
-                <Link class="navbar-brand" to='/'>mahmud</Link>
+                <Link class="navbar-brand" to='/'>Items</Link>
+                <Link class="navbar-brand" to='/'>Fly</Link>
                 <ul class="navbar-nav mr-auto">
                     {
                         profile !== null ? (
