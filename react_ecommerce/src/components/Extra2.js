@@ -12,7 +12,7 @@ function Extra2() {
     return (
         <div>
            {arr.name} /{arr.city}
-           
+         
         </div>
     )
 }
